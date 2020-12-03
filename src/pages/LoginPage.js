@@ -10,7 +10,7 @@ const LoginPage = () => {
         <div className="py-20 grid grid-cols-8">
           <div className="col-span-3">
             <form className="bg-gray-100 rounded p-6">
-              <h2 className="text-2xl mb-8 text-center text-opacity-75 font-bold">Welcome to Bedu Swag</h2>
+              <h2 className="text-2xl mb-8 text-center text-opacity-75 font-bold">Welcome to Blog System</h2>
               <div className="flex flex-col mb-4">
                 <label className="font-semibold mb-1">Email Address</label>
                 <input className="py-2 px-4 bg-white rounded border-2 border-gray-600" type="text" name="email" placeholder="Email Address" />

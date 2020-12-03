@@ -4,7 +4,7 @@ const Header = () => {
   return <header className="border-b border-gray-300 py-6 bg-white">
     <div className="container mx-auto max-w-screen-lg">
       <div className="flex justify-between align-center">
-        <p className="font-semibold text-lg text-center">Bedu SWAG</p>
+        <p className="font-semibold text-lg text-center">Blog System</p>
         <div>
           <ul className="flex">
             <li className="mr-2">

@@ -6,7 +6,7 @@ import BaseLayout from './layouts/BaseLayout';
 import LoginPage from './pages/LoginPage';
 import SignUpPage from './pages/SignUpPage';
 import NotFoundPage from './pages/NotFoundPage';
-import ProductsPage from './pages/ProductsPage';
+import PostsPage from './pages/PostsPage';
 
 function App() {
   return (
@@ -15,7 +15,7 @@ function App() {
         <Switch>
           <Route exact path="/" component={LoginPage} />
           <Route exact path="/signup" component={SignUpPage} />
-          <Route exact path="/products" component={ProductsPage} />
+          <Route exact path="/posts" component={PostsPage} />
           <Route component={NotFoundPage} />
         </Switch>
       </BaseLayout>
