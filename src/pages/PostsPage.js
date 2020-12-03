@@ -56,7 +56,7 @@ const ProductsPage = () => {
                       $4,400.00
                     </td>
                     <td className="px-6 py-4 whitespace-no-wrap text-right text-sm leading-5 font-medium">
-                      <a href="#" className="text-indigo-600 hover:text-indigo-900">Edit</a>
+                      <a href="/" className="text-indigo-600 hover:text-indigo-900">Edit</a>
                     </td>
                   </tr>
                   </tbody>
